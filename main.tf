@@ -2,7 +2,7 @@
 variable "run_id" {
   default = "3"
   #type = list(string)
-  #nullable = false
+  nullable = false
   
 }
 terraform {
