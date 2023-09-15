@@ -19,7 +19,7 @@ variable "zones" {
     "amsterdam" = "nl-ams1"
     "london"    = "uk-lon1"
     "frankfurt" = "de-fra1"
-    "helsinki1" = "fi-hel1"
+    "helsinki1" = "fi-he1"
     "helsinki2" = "fi-hel2"
     "chicago"   = "us-chi1"
     "sanjose"   = "us-sjo1"
