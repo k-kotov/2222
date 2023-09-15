@@ -17,7 +17,7 @@ variable "zones" {
   type = map
   default = {
     "amsterdam" = "nl-ams1"
-    "london"    = "uk-lon1"
+    "london"    = "uk-lons1"
     "frankfurt" = "de-fra1"
     "helsinki1" = "fi-hel1"
     "helsinki2" = "fi-hel2"
