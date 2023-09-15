@@ -1,6 +1,6 @@
 
 variable "run_id" {
-  default = "3"
+  default = 3
   #type = list(string)
   #nullable = fals
   
