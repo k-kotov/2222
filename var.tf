@@ -16,7 +16,7 @@ variable "public_key" {
 variable "zones" {
   type = map
   default = {
-    "amsterdam" = "nl-ams1"
+    "amsterdam" = "nl-ams"
     "london"    = "uk-lon1"
     "frankfurt" = "de-fra1"
     "helsinki1" = "fi-hel1"
