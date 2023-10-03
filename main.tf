@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "2.86"
+      version = "3.0.0"
     }
   }
 }
@@ -150,4 +150,8 @@ resource "azurerm_virtual_machine_scale_set" "example" {
   tags = {
     environment = "staging"
   }
+}
+import {
+  to = null_resource.foo
+  id = ""
 }
