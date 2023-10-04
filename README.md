@@ -1,3 +1,5 @@
+/illusion.jpg
+
 Resources and Modules
 The main purpose of the Terraform language is declaring resources. All other language features exist only to make the definition of resources more flexible and convenient.
 
