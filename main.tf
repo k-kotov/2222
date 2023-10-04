@@ -15,10 +15,18 @@ provider scalr {
 
 
  
+  resource "scalr_environment" "test" {
+  count           = 5
+   name            = "kostya-env-${floor(count.index/5)}"
+  account_id = "acc-v0o3e1jv81ngiqhh7"
+  cost_estimation_enabled = true
+  #policy_groups = scalr_policy_group[0].id
+  #default_provider_configurations = [scalr_provider_configuration.scalr[0].id]
+}
  
  resource "scalr_workspace" "more" {
    count           = 5
-   name            = "my-workspace-name-${count.index}"
+   name            = "my-workspace-name-${floor(count.index/5)}"
     environment_id = "env-v0o3e1k06pqib57lv"
   #draft-pr-runs-enabled = true
    auto_apply = true
