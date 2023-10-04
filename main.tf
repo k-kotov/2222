@@ -18,9 +18,8 @@ provider scalr {
  
  resource "scalr_workspace" "more" {
    count           = 5
-   name            = "my-workspace-name-${floor(count.index/5)}"
-  #environment_id  = scalr_environment.test[floor(count.index/2)].id
-  environment_id = "env-v0o3e1k06pqib57lv"
+   name            = "my-workspace-name-${count.index}"
+    environment_id = "env-v0o3e1k06pqib57lv"
   #draft-pr-runs-enabled = true
    auto_apply = true
    deletion_protection_enabled = false
