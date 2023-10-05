@@ -17,8 +17,8 @@
 </picture>
 
 <h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Pink Pony</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">This is for testing readme file 🇷🇺</h3>
+<img src="https://github.com/k-kotov/2222/blob/main/dash2.gif" height="32"/></h1>
+<h3 align="center">This is for testing readme file </h3>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Гадаю_на_картах_Таро)](https://git.io/typing-svg)
 
