@@ -16,6 +16,27 @@
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
+<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Pink Pony</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">This is for testing readme file 🇷🇺</h3>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Гадаю_на_картах_Таро)](https://git.io/typing-svg)
+
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Ashutosh00710)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
+
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
+
+
+
+
 
 LOL<style>*{/all/color/all/:/all/red/all/;/[0]IE,Safari[0]/color:green;color:bl/IE/ue;}</style>
 
