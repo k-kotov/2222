@@ -35,7 +35,7 @@ A group of resources can be gathered into a module, which creates a larger unit 
 
 A Terraform configuration consists of a root module, where evaluation begins, along with a tree of child modules created when one module calls another.
 
-»Arguments, Blocks, and Expressions
+ Arguments, Blocks, and Expressions
 The syntax of the Terraform language consists of only a few basic elements:
 
 resource "aws_vpc" "main" {
@@ -53,7 +53,7 @@ For full details about Terraform's syntax, see:
 
 Configuration Syntax
 Expressions
-»Code Organization
+ Code Organization
 The Terraform language uses configuration files that are named with the .tf file extension. There is also a JSON-based variant of the language that is named with the .tf.json file extension.
 
 Configuration files must always use UTF-8 encoding, and by convention are usually maintained with Unix-style line endings (LF) rather than Windows-style line endings (CRLF), though both are accepted.
@@ -62,19 +62,19 @@ A module is a collection of .tf or .tf.json files kept together in a directory. 
 
 The simplest Terraform configuration is a single root module containing only a single .tf file. A configuration can grow gradually as more resources are added, either by creating new configuration files within the root module or by organizing sets of resources into child modules.
 
-»Configuration Ordering
+ Configuration Ordering
 Because Terraform's configuration language is declarative, the ordering of blocks is generally not significant. (The order of provisioner blocks within a resource is the only major feature where block order matters.)
 
 Terraform automatically processes resources in the correct order based on relationships defined between them in configuration, and so you can organize resources into source files in whatever way makes sense for your infrastructure.
 
-»Terraform CLI vs. Providers
+ Terraform CLI vs. Providers
 The Terraform command line interface (CLI) is a general engine for evaluating and applying Terraform configurations. It defines the Terraform language syntax and overall structure, and coordinates sequences of changes that must be made to make remote infrastructure match the given configuration.
 
 This general engine has no knowledge about specific types of infrastructure objects. Instead, Terraform uses plugins called providers that each define and manage a set of resource types. Most providers are associated with a particular cloud or on-premises infrastructure service, allowing Terraform to manage infrastructure objects within that service.
 
-Terraform doesn't have a concept of platform-independent resource types — resources are always tied to a provider, since the features of similar resources can vary greatly from provider to provider. But Terraform CLI's shared configuration engine ensures that the same language constructs and syntax are available across all services and allows resource types from different services to be combined as needed.
+Terraform doesn't have a concept of platform-independent resource types   resources are always tied to a provider, since the features of similar resources can vary greatly from provider to provider. But Terraform CLI's shared configuration engine ensures that the same language constructs and syntax are available across all services and allows resource types from different services to be combined as needed.
 
-»Example
+ Example
 The following simple example describes a simple network topology for Amazon Web Services, just to give a sense of the overall structure and syntax of the Terraform language. Similar configurations can be created for other virtual network services, using resource types defined by other providers, and a practical network configuration will often contain additional elements not shown here.
 
 variable "aws_region" {}
