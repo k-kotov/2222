@@ -1,6 +1,6 @@
 
 variable "run_id" {
-  default = "3"
+  default = "300"
   #type = list(string)
   #nullable = fals
   
@@ -16,7 +16,7 @@ terraform {
 
 
 variable "sleep_time" {
-  default = 200
+  default = 600
 }
 
 resource "null_resource" "resource2" {
