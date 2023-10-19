@@ -16,7 +16,7 @@ terraform {
 
 
 variable "sleep_time" {
-  default = 600
+  default = 2
 }
 
 resource "null_resource" "resource2" {
